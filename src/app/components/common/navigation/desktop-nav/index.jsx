@@ -12,20 +12,23 @@ function DesktopMenu() {
         {/* <DropdownItem url="services">
             Services Details
           </DropdownItem> */}
-          <DropdownItem url="services/softwaredevelopment">
-            Software Development
+          <DropdownItem url="services/website-development">
+            Webiste Development
           </DropdownItem>
-          <DropdownItem url="services/mobileappdevelopment">
+          <DropdownItem url="services/mobile-app-development">
             Mobile App Development
           </DropdownItem>
-          <DropdownItem url="services/uiuxdesign">UI/UX Design</DropdownItem>
-          <DropdownItem url="services/seoopotimazation">
+          <DropdownItem url="services/software-development">
+            Software Development
+          </DropdownItem>
+          <DropdownItem url="services/ui-ux-design">UI/UX Design</DropdownItem>
+          <DropdownItem url="services/seo-optimazation">
             SEO & Optimazation
           </DropdownItem>
-          <DropdownItem url="services/digitalmarketing">
+          <DropdownItem url="services/digital-marketing">
             Digital Marketing
           </DropdownItem>
-          <DropdownItem url="services/itstrategyplanning">
+          <DropdownItem url="services/it-strategy-planning">
             IT Strategy & Planning
           </DropdownItem>
         </Dropdown>

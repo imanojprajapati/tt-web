@@ -53,6 +53,22 @@ function ContactInfo() {
           </p>
         </div>
       </div>
+      <div className="sofax-iconbox-wrap2">
+        <div className="sofax-iconbox-icon2">
+          <Image
+            src="/images/contact/icon6.png"
+            width={24}
+            height={24}
+            alt="Email Icon"
+          />
+        </div>
+        <div className="sofax-iconbox-data2">
+          <h4 className="all-heading-color">Address</h4>
+          <p className="all-para-color">
+          A-407, Ganesh Glory 11 Nr. Bsnl Office , SG highway Jagatpur, Road, Gota, Ahmedabad, Gujarat 382470
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

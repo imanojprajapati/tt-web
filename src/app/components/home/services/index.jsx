@@ -51,7 +51,7 @@ function Services() {
 						<h2 className="all-heading-color">We deliver IT and business solutions</h2>
 					</div>
 				</div>
-
+ 
 				<div className="sofax-features-wrapv8">
 					{servicesData.map((service, index) => (
 						<FadeInStagger key={service.id} index={index} className="sofax-features-boxv8">

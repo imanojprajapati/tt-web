@@ -16,28 +16,32 @@ export const menuItemsData = [
       //   url: "services",
       // },
       {
-        title: "Software Development",
-        url: "services/softwaredevelopment",
+        title: "Website Development",
+        url: "services/website-development",
       },
       {
         title: "Mobile App Development",
-        url: "services/mobileappdevelopment",
+        url: "services/mobile-app-development",
+      },
+      {
+        title: "Software Development",
+        url: "services/software-development",
       },
       {
         title: "UI/UX Design",
-        url: "services/uiuxdesign",
+        url: "services/ui-ux-design",
       },
       {
         title: "SEO & Optimazation",
-        url: "services/seoopotimazation",
+        url: "services/seo-optimazation",
       },
       {
         title: "Digital Marketing",
-        url: "services/digitalmarketing",
+        url: "services/digital-marketing",
       },
       {
         title: "IT Strategy & Planning",
-        url: "services/itstrategyplanning",
+        url: "services/it-strategy-planning",
       },
     ],
   },

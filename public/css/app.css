@@ -4872,7 +4872,7 @@ h1.post__title {
 .sofax-list-icon-icon ul li {
 	position: relative;
 	font-size: 23px;
-	font-weight: 700;
+	/* font-weight: 700; */
 	line-height: 32px;
 	text-align: left;
 	color: #0e0e0e;
@@ -6883,7 +6883,7 @@ img.plasicon {
 		margin-bottom: 24px;
 	}
 }
-
+ 
 .sofax-section-padding {
 	padding: 130px 0 106px;
 }
@@ -8581,6 +8581,13 @@ button#sofax-submit-btn:hover {
 .element-item.city3 {
 	background: #ff0;
 	background: hsl(72, 100%, 50%);
+}
+
+@media (min-width: 992px) {
+    .sofax-features-wrapv8 { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .reading-more{

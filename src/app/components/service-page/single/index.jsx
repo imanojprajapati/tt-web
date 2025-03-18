@@ -1,7 +1,7 @@
-import Icon from "@/public/images/service/icon5.png";
-import ServiceDetails from "@/public/images/service/service-details.png";
-import Thumb2 from "@/public/images/service/service-thumb2.png";
-import Shape2 from "@/public/images/v5/shape2.png";
+// import Icon from "@/public/images/service/icon5.png";
+// import ServiceDetails from "@/public/images/service/service-details.png";
+// import Thumb2 from "@/public/images/service/service-thumb2.png";
+// import Shape2 from "@/public/images/v5/shape2.png";
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";	
 import FadeInUp from "@/src/app/components/animation/FadeInUp";

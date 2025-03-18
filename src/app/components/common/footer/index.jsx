@@ -26,7 +26,7 @@ function Footer() {
 								</p>
 								<div className="sofax-social-icon">
 									<ul>
-										<li>
+										{/* <li>
 											<a target="_blank" href="https://www.twitter.com/">
 												<svg
 													width="17"
@@ -41,9 +41,9 @@ function Footer() {
 													/>
 												</svg>
 											</a>
-										</li>
+										</li> */}
 										<li>
-											<a target="_blank" href="https://www.facebook.com/">
+											<a target="_blank" href="https://www.facebook.com/touptotechnologies/">
 												<svg
 													width="11"
 													height="18"
@@ -59,7 +59,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a target="_blank" href="https://www.instagram.com/">
+											<a target="_blank" href="https://www.instagram.com/touptotechnologies/?hl=en">
 												<svg
 													width="18"
 													height="17"
@@ -83,7 +83,7 @@ function Footer() {
 											</a>
 										</li>
 										<li>
-											<a target="_blank" href="https://bd.linkedin.com/">
+											<a target="_blank" href="https://in.linkedin.com/company/touptotechnologies">
 												<svg
 													width="16"
 													height="16"

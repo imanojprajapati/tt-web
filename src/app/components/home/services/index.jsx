@@ -3,41 +3,41 @@ import ServiceCard from "@/src/app/components/home/services/ServiceCard";
 const servicesData = [
 	{
 		id: 1,
-		icon: "/images/v8/icon6v8.png",
+		icon: "/images/home/service/development.png",
 		title: "Software Development",
 		description:
 			"Define the project's scope, objectives, and feasibility, while performing a risk analysis and allocating the necessary resources.",
 	},
 	{
 		id: 2,
-		icon: "/images/v8/icon5.png",
+		icon: "/images/home/service/mobile-development.png",
 		title: "Mobile Development",
 		description: "We design innovative and engaging mobile apps, tailored to meet the needs of startups and enterprises."
 	},
 	{
 		id: 3,
-		icon: "/images/v8/icon8v8.png",
+		icon: "/images/home/service/digital-marketing.png",
 		title: "Digital Marketing",
 		description:
 			"Elevate your brand with our tailored Digital Marketing solutions to reach the right audience.",
 	},
 	{
 		id: 4,
-		icon: "/images/v8/icon9v8.png",
+		icon: "/images/home/service/ux.png",
 		title: "UI/UX Design",
 		description:
 			"Transform user experiences with our creative and intuitive UI/UX Design services.",
 	},
 	{
 		id: 5,
-		icon: "/images/v8/icon10v8.png",
+		icon: "/images/home/service/seo.png",
 		title: "SEO & Optimazation",
 		description:
 			"Increase your online visibility with expert SEO Optimization to boost search rankings.",
 	},
 	{
 		id: 6,
-		icon: "/images/v8/icon11v8.png",
+		icon: "/images/home/service/marketing-strategy.png",
 		title: "IT Strategy & Planning",
 		description: "Achieve business success with our expert IT Planning and Consulting services tailored to your needs.",
 	},

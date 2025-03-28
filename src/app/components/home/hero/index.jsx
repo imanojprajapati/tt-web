@@ -11,30 +11,13 @@ function Hero() {
             <HeroContent />
           </div>
           <div className="col-lg-5">
-            <FadeInUp className="sofax-hero-thumb8 position-ralatiove">
               <Image
-                src="/images/v8/image1v8.png"
-                width={600}
-                height={800}
+                src="/images/home/hero/technology-expertise.jpg"
+                width={516}
+                height={525}
                 alt="Thumb"
+                className="hero-img-ite"
               />
-              <div className="sofax-hero-shape-v8">
-                <Image
-                  src="/images/v8/shape1v8.png"
-                  width={450}
-                  height={250}
-                  alt="Shape"
-                />
-              </div>
-              <div className="sofax-hero-shape2-v8">
-                <Image
-                  src="/images/v8/shape2v8.png"
-                  width={300}
-                  height={300}
-                  alt="Shape"
-                />
-              </div>
-            </FadeInUp>
           </div>
         </div>
       </div>

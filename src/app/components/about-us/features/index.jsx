@@ -2,8 +2,8 @@ import FadeInStagger from "@/src/app/components/animation/FadeInStagger";
 import FeatureCard from "@/src/app/components/about-us/features/FeatureCard";
 const featuresData = [
 	{
-		id: crypto.randomUUID(),
-		icon:"/images/v5/icon1.png",
+		id: 1,
+		icon:"/images/about/data-analytics.png",
 		title: "Analytics and Data Analysis",
 		description:
 			"Monitoring and analysis of digital performance metrics to assess the effectiveness of online campaigns.",
@@ -11,8 +11,8 @@ const featuresData = [
 		heightIcon: 70,
 	},
 	{
-		id: crypto.randomUUID(),
-		icon:"/images/v5/icon2.png",
+		id: 2,
+		icon:"/images/about/branding.png",
 		title: "Branding and Design Services",
 		description:
 			"Development of brand identity, logo design, and other visual elements to establish a strong brand presence.",
@@ -20,8 +20,8 @@ const featuresData = [
 			heightIcon: 70,
 	},
 	{
-		id: crypto.randomUUID(),
-		icon:"/images/v5/icon3.png",
+		id: 3,
+		icon:"/images/about/shield.png",
 		title: "Security and Compliance",
 		description:
 			"Implementation of security measures and also compliance with industry standards to protect digital assets.",

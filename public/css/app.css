@@ -8627,6 +8627,22 @@ button#sofax-submit-btn:hover {
 	color: #fefefe;
 }
 
+.home-abouttwo-img {
+	height: 479px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 799px) {
+	.home-abouttwo-img {
+		height: 360px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 991px) {
+	.home-abouttwo-img {
+		height: 360px;
+	}
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .heading-featurecard {
 		font-size: 20px;
@@ -8638,6 +8654,10 @@ button#sofax-submit-btn:hover {
 
 	.sofax-section-title.center.max-width-large  {
 		max-width: 730px;
+	}
+
+	.home-abouttwo-img {
+		height: 380px;
 	}
 }
 
@@ -8652,3 +8672,11 @@ button#sofax-submit-btn:hover {
 }
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+
+.hero-img-ite,
+.home-aboutone-img,
+.home-abouttwo-img {
+	border-radius: 6px;
+}
+

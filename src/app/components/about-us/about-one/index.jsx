@@ -10,7 +10,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-6">
 						<FadeInLeft className="about-thumbv5 mr-80 ">
-							<Image src="/images/v5/aboutthumb.png" width={532} height={532} alt="Thumb" />
+							<Image src="/images/about/aboutimg.jpg" width={532} height={532} alt="Thumb" />
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-6">

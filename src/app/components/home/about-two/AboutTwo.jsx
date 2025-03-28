@@ -9,7 +9,7 @@ function AboutTwo() {
 				<div className="row">
 					<div className="col-lg-6 order-lg-2">
 						<FadeInRight className="sofax-content-thumbv8 ml-70">
-							<Image src="/images/v8/image3v8.png" width={505} height={437} alt="Thumb" />
+							<Image src="/images/home/aboutone/sit.avif" width={505} height={437} className="home-abouttwo-img" alt="Thumb" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-6">

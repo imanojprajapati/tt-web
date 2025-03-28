@@ -5,7 +5,7 @@ function ContactInfo() {
       <div className="sofax-iconbox-wrap2">
         <div className="sofax-iconbox-icon2">
           <Image
-            src="/images/contact/icon1.png"
+            src="/images/contact/comment.png"
             width={24}
             height={24}
             alt="Icon chat"
@@ -22,7 +22,7 @@ function ContactInfo() {
       <div className="sofax-iconbox-wrap2">
         <div className="sofax-iconbox-icon2">
           <Image
-            src="/images/contact/icon2.png"
+            src="/images/contact/telephone.png"
             width={24}
             height={24}
             alt="Call icon"
@@ -39,7 +39,7 @@ function ContactInfo() {
       <div className="sofax-iconbox-wrap2">
         <div className="sofax-iconbox-icon2">
           <Image
-            src="/images/contact/icon1.png"
+            src="/images/contact/email.png"
             width={24}
             height={24}
             alt="Email Icon"
@@ -56,10 +56,10 @@ function ContactInfo() {
       <div className="sofax-iconbox-wrap2">
         <div className="sofax-iconbox-icon2">
           <Image
-            src="/images/contact/icon6.png"
+            src="/images/contact/pin.png"
             width={24}
             height={24}
-            alt="Email Icon"
+            alt="Pin Icon"
           />
         </div>
         <div className="sofax-iconbox-data2">

@@ -10,7 +10,7 @@ function AboutOne() {
 				<div className="row">
 					<div className="col-lg-6">
 						<div className="sofax-about-thumbv8 wow fadeInLeft">
-							<Image src="/images/v8/image2v8.png" width={577} height={445} alt="thumb" />
+							<Image src="/images/home/aboutone/Business-Solutions.webp" width={577} height={445} alt="thumb" className="home-aboutone-img"/>
 						</div>
 					</div>
 					<div className="col-lg-6">
@@ -26,7 +26,7 @@ function AboutOne() {
 						<div className="sofax-about-content-wrap">
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<Image src="/images/v8/icon1v8.png" width={50} height={50} alt="icon" />
+									<Image src="/images/home/aboutone/superb.png" width={50} height={50} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
 									<h4 className="tg-heading-about-one">Best Services</h4>
@@ -35,7 +35,7 @@ function AboutOne() {
 							</div>
 							<div className="sofax-iconbox-wrap2">
 								<div className="sofax-iconbox-icon2">
-									<Image src="/images/v8/icon2v8.png"  width={50} height={50} alt="icon" />
+									<Image src="/images/home/aboutone/support.png"  width={50} height={50} alt="icon" />
 								</div>
 								<div className="sofax-iconbox-data2 aboutv8">
 									<h4 className="tg-heading-about-one">24/7 Call Support</h4>

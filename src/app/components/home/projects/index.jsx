@@ -7,42 +7,42 @@ const projectsData = [
 		image: "/images/portfolio/portfolioimg1.png",
 		title: "Adhaan Solution",
 		category: "Software Development",
-		link: "single-portfolio",
+		link: "portfolio",
 	},
 	{
 		id: 2,
 		image: "/images/portfolio/portfolioimg2.png",
 		title: "Rukmani Trust",
 		category: "Software Development",
-		link: "single-portfolio",
+		link: "portfolio",
 	},
 	{
 		id: 3,
 		image: "/images/portfolio/portfolioimg3.png",
 		title: "StartUp Going Global",
 		category: "Software Development",
-		link: "single-portfolio",
+		link: "portfolio",
 	},
 	{
 		id: 4,
 		image: "/images/portfolio/portfolioimg4.png",
 		title: "Vardayani Power",
 		category: "Software Development",
-		link: "single-portfolio",
+		link: "portfolio",
 	},
 	{
 		id: 5,
 		image: "/images/portfolio/portfolioimg5.png",
 		title: "K D Films",
 		category: "Software Development",
-		link: "single-portfolio",
+		link: "portfolio",
 	},
 	{
 		id: 6,
 		image: "/images/portfolio/portfolioimg6.png",
 		title: "Electro Power Induction",
 		category: "Software Development",
-		link: "single-portfolio",
+		link: "portfolio",
 	},
 ];
 function Projects() {
@@ -58,7 +58,7 @@ function Projects() {
 						</div>
 						<div className="col-xl-5 col-lg-4 d-flex justify-content-end align-items-center">
 							<div className="sofax-title-btn wow fadeInUpX">
-								<Link className="sofax-default-btn pill" data-text="View All Projects" href="/service">
+								<Link className="sofax-default-btn pill" data-text="View All Projects" href="/portfolio">
 									<span className="button-wraper">View All Projects</span>
 								</Link>
 							</div>

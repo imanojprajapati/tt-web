@@ -17,7 +17,7 @@ function HeroContent() {
 	  </Link>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
-				<Link className="sofax-default-btn pill dark-btn" data-text="Contact Us" href="/service">
+				<Link className="sofax-default-btn pill dark-btn" data-text="Contact Us" href="/contact-us">
 		<span className="button-wraper">Contact Us</span>
 	  </Link>
 				</FadeInStaggerTwoChildren>

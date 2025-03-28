@@ -5,7 +5,7 @@ import About from "@/src/app/components/service-page/about";
 import Services from "@/src/app/components/service-page/services";
 
 export const metadata = {
-	title: "Service || Toupto Technology",
+	title: "Service || Toupto Technologies",
 	description: "",
 };
 

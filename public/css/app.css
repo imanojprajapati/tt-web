@@ -4624,7 +4624,7 @@ h1.post__title {
 .sofax-testimonial-authorev7 h5 {
 	margin-bottom: 5px;
 }
-
+/* 
 .sofax-testimonial-thumbv8 {
 	position: relative;
 	display: block;
@@ -4679,7 +4679,112 @@ h1.post__title {
 
 .sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 {
 	opacity: 1;
+} */
+
+.sofax-testimonial-itemv8 { 
+	/* border: 2px solid #36479e; */
+	box-shadow: 0 4px 10px #0e0e0e;
+	border-radius: 6px;
+    position: relative;
+    width: 408px; /* Adjust based on your design */
+    height: 392.3px; /* Adjust based on your design */
+	margin-top: 20px;
 }
+
+.sofax-testimonial-thumbv8 {
+    position: relative;
+    display: block;
+    margin-bottom: 24px;
+    text-align: center;
+    overflow: hidden; /* Ensures that the image moves smoothly and only part of it is visible */
+}
+
+/* This is the image container where the long screenshot resides */
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.portfolio-image {
+    width: 100%;
+    object-fit: cover;
+    transition: transform 9s ease; /* Smooth transition for the image movement */
+}
+
+.sofax-testimonial-itemv8, .portfolio-image {
+    overflow: hidden;
+}
+
+/* Hover effect for the image - moves from top to bottom */
+.sofax-testimonial-itemv8:hover .portfolio-image {
+    transform: translateY(-100%); /* Moves the image up to reveal different sections */
+}
+
+/* For the button area */
+.sofax-testimonial-btnv8 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
+    text-align: center;
+    pointer-events: none; /* Prevents clicking on button when not visible */
+}
+
+/* Show button and icon animation */
+.sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Make title, category and arrow hidden on hover */
+.sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 h4,
+.sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 p,
+.sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 .right-icon-btn {
+    opacity: 0; /* Hide text and icon */
+}
+
+/* Right icon button styling */
+.sofax-testimonial-btnv8 .right-icon-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 100px;
+    background: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    opacity: 1; /* Ensure icon is visible by default */
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Styling for text inside button */
+.sofax-testimonial-btnv8 p {
+    font-size: 16px !important;
+}
+
+/* Overlay effect on hover */
+.sofax-testimonial-thumbv8::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(14, 14, 14, 0.8);
+    opacity: 1; /* Set initial opacity to 1 */
+    transition: opacity 9s ease; /* Match the duration of the image movement */
+}
+
+.sofax-testimonial-thumbv8:hover::before {
+    opacity: 0; /* Fade out the overlay at the end of the hover effect */
+}
+
 
 .testimonial-vr8 {
 	padding-bottom: 24px;

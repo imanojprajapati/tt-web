@@ -67,7 +67,7 @@ function Projects() {
 				</div>
 				<div className="row">
 					{projectsData.map((project, index) => (
-						<FadeInStagger key={project.id} index={index} className="col-lg-4 col-md-6">
+						<FadeInStagger key={project.id} index={index} className="col-lg-4 col-md-6 cardcss">
 							<ProjectCard project={project} />
 						</FadeInStagger>
 					))}

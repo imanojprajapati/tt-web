@@ -20,7 +20,6 @@ function ProjectCard({ project: { title, category, image } }) {
       <Link href="/single-portfolio">
         <div className="sofax-testimonial-itemv8">
           <div className="sofax-testimonial-thumbv8">
-            {/* Image container for the long screenshot */}
             <div className="image-container">
               <Image
                 src={image}

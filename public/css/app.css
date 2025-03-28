@@ -14,6 +14,7 @@
      1.4 themes css
 
 **/
+
 :root {
 	--heading-color: #0e0e0e;
 	--body-color: #3c3c3c;
@@ -4682,12 +4683,11 @@ h1.post__title {
 } */
 
 .sofax-testimonial-itemv8 { 
-	/* border: 2px solid #36479e; */
-	box-shadow: 0 4px 10px #0e0e0e;
+	box-shadow: 0 3px 5px #0e0e0e;
 	border-radius: 6px;
     position: relative;
-    width: 408px; /* Adjust based on your design */
-    height: 392.3px; /* Adjust based on your design */
+    width: auto; 
+    height: 392.3px; 
 	margin-top: 20px;
 }
 
@@ -4696,10 +4696,10 @@ h1.post__title {
     display: block;
     margin-bottom: 24px;
     text-align: center;
-    overflow: hidden; /* Ensures that the image moves smoothly and only part of it is visible */
+    overflow: hidden; 
 }
 
-/* This is the image container where the long screenshot resides */
+
 .image-container {
     position: relative;
     width: 100%;
@@ -4709,20 +4709,19 @@ h1.post__title {
 
 .portfolio-image {
     width: 100%;
-    object-fit: cover;
-    transition: transform 9s ease; /* Smooth transition for the image movement */
+    object-fit:fill;
+    transition: transform 9s ease;
 }
 
 .sofax-testimonial-itemv8, .portfolio-image {
     overflow: hidden;
 }
 
-/* Hover effect for the image - moves from top to bottom */
 .sofax-testimonial-itemv8:hover .portfolio-image {
-    transform: translateY(-100%); /* Moves the image up to reveal different sections */
+    transform: translateY(-100%);
 }
 
-/* For the button area */
+
 .sofax-testimonial-btnv8 {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -4731,23 +4730,20 @@ h1.post__title {
     opacity: 0;
     transition: opacity 0.5s ease-in-out, transform 0.2s ease-in-out;
     text-align: center;
-    pointer-events: none; /* Prevents clicking on button when not visible */
+    pointer-events: none; 
 }
 
-/* Show button and icon animation */
 .sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.1); /* Slight zoom effect on hover */
+    transform: translate(-50%, -50%) scale(1.1); 
 }
 
-/* Make title, category and arrow hidden on hover */
 .sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 h4,
 .sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 p,
 .sofax-testimonial-itemv8:hover .sofax-testimonial-btnv8 .right-icon-btn {
-    opacity: 0; /* Hide text and icon */
+    opacity: 0;
 }
 
-/* Right icon button styling */
 .sofax-testimonial-btnv8 .right-icon-btn {
     width: 28px;
     height: 28px;
@@ -4759,16 +4755,15 @@ h1.post__title {
     position: absolute;
     top: 70%;
     left: 40%;
-    opacity: 1; /* Ensure icon is visible by default */
+    opacity: 1; 
     transition: opacity 0.3s ease-in-out;
 }
 
-/* Styling for text inside button */
 .sofax-testimonial-btnv8 p {
     font-size: 16px !important;
 }
 
-/* Overlay effect on hover */
+
 .sofax-testimonial-thumbv8::before {
     position: absolute;
     content: "";
@@ -4777,12 +4772,12 @@ h1.post__title {
     top: 0;
     left: 0;
     background-color: rgba(14, 14, 14, 0.8);
-    opacity: 1; /* Set initial opacity to 1 */
-    transition: opacity 9s ease; /* Match the duration of the image movement */
+    opacity: 1; 
+    transition: opacity 9s ease; 
 }
 
 .sofax-testimonial-thumbv8:hover::before {
-    opacity: 0; /* Fade out the overlay at the end of the hover effect */
+    opacity: 0; 
 }
 
 
@@ -8784,4 +8779,13 @@ button#sofax-submit-btn:hover {
 .home-abouttwo-img {
 	border-radius: 6px;
 }
+
+/* @media only screen and (min-width: 1200px) and (max-width: 1399px) {
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+} */
+/* 767 */
 

@@ -3,7 +3,7 @@ import Contact from "@/src/app/components/contact-us-page";
 import MyMap from "@/src/app/components/contact-us-page/MyMap";
 
 export const metadata = {
-	title: "Contact Us || Toupto Technology",
+	title: "Contact Us || Toupto Technologies",
 	description: "",
 };
 

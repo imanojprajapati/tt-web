@@ -3,7 +3,7 @@ import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
 
 export const metadata = {
-	title: "Mobile App Development || Toupto Technology",
+	title: "Mobile App Development || Toupto Technologies",
 	description: "",
 };
 

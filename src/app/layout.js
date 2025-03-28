@@ -34,7 +34,7 @@ import "/public/css/splitting.css";
 import Footer from "./components/common/footer";
 
 export const metadata = {
-	title: "Toupto Technology",
+	title: "Toupto Technologies",
 	description: "",
 };
 export default function RootLayout({ children }) {

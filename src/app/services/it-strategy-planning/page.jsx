@@ -3,7 +3,7 @@ import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
 
 export const metadata = {
-	title: "IT Strategy Planning || Toupto Technology",
+	title: "IT Strategy Planning || Toupto Technologies",
 	description: "",
 };
 

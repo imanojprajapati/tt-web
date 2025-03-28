@@ -6,7 +6,7 @@ import Features from "@/src/app/components/about-us/features";
 // import TeamMembers from "@/app/components/team-page/TeamMembers";
 
 export const metadata = {
-	title: "About Us ||  Toupto Technology",
+	title: "About Us ||  Toupto Technologies",
 	description: "",
 };
 

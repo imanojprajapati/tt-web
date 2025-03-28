@@ -1,6 +1,12 @@
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
+
+export const metadata = {
+	title: "UI/UX Design || Toupto Technology",
+	description: "",
+};
+
 function UIUXDesign() {
   return (
     <section className="sofax-section-padding2">

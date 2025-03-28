@@ -1,6 +1,12 @@
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
+
+export const metadata = {
+	title: "Digital Marketing || Toupto Technology",
+	description: "",
+};
+
 function DigitalMarketing() {
   return (
     <section className="sofax-section-padding2">

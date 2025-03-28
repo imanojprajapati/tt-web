@@ -1,6 +1,13 @@
 import Image from "next/image";
 import FadeInRight from "@/src/app/components/animation/FadeInRight";
 import FadeInUp from "@/src/app/components/animation/FadeInUp";
+
+export const metadata = {
+	title: "Mobile App Development || Toupto Technology",
+	description: "",
+};
+
+
 function MobileAppDevelopment() {
   return (
     <section className="sofax-section-padding2">

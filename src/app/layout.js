@@ -40,7 +40,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			 <link rel="icon" type="image/png" href="/favicon.png" />
+			  <link rel="icon" href="/favicon.png" type="image/png" />
 			<body className={`${inter.variable} ${DMSans.variable} ${clashGrotesk.variable}`}>
 				<Header/>
 				<ImportBsJS />
